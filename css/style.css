@@ -1,0 +1,20 @@
+:root {
+    --accent: #ff5638;
+    --accent-hover: #e64b33;
+    --ink: #0b2024;
+    --muted: #71818d;
+    --surface: #f2f5f6;
+    --placeholder: #c4c4c4;
+    --footer: #191c2b;
+    --shadow: 0 15px 35px rgb(11 32 36 / 7%);
+    --header-height: 115px;
+}
+
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
