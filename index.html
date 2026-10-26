@@ -5,8 +5,333 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Ralph Ewards</title>
     <link rel='stylesheet' href='./css/style.css'>
+    <script src='./js/script.js' defer></script>
 </head>
 <body>
-    
+    <header>
+        <div class="nav-bar">
+            <a class="logo" href="/">
+                    Ralph Ewards.
+            </a>
+            <nav class="nav-links">
+                <a href="/home">Home</a>
+                <a href="/about">About</a>
+                <a href="/cv">CV</a>
+                <a href="/Education">Education</a>
+                <a href="/Testimonials">Testimonials</a>
+                <a href="/Article">Article</a>
+                <a href="/Contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-tile">
+                    <span class="name">
+                        <img src="" alt="syringe needle" class="job-icon">
+                        Ralph Ewards
+                    </span>
+                    <h1 class="hero-title">
+                        27+ years of neurologists Doctor.
+                    </h1>
+                    <p class="subtitle">
+                        Phasellus blandit, metus sit amet euismod facilisis,
+                        ante justo mollis elit, eu suscipit tellus lorem non
+                        dolor aliquam faucibus odio tempus nibh.
+                    </p>
+                </div>
+                <div class="more-about">
+                    <a href="/about" class="btn btn-primary">Learn About Me</a>
+                    <a href="/story" class="btn btn-secondary">Patient Success Story</a>
+                </div>
+            </div>
+            <div class="float-banner">
+                <div class="introduction">
+                    <img src="" alt="introduction-image" class="introduction-image">
+                    <div class="introduction-and-contact">
+                        <div class="introduction-text">
+                            <h1 class="introduction-title">
+                                Hello, I am Ralph Ewards.
+                            </h1>
+                            <p class="introduction-title">
+                                Phasellus blandit, metus sit amet euismod facilisis,
+                                ante justo mollis elit, eu suscipit tellus lorem non
+                                dolor. Aliquam faucibus odio tempus nibh fringilla
+                                tincidunt. Proin luctus dui odio, sed egestas erat
+                                condimentum non.
+                            </p>
+                        </div>
+                        <div class="contact">
+                            <a href="/contact" class="btn btn-primary">Send Message</a>
+                            <a href="/cv" class="btn btn-primary">Dowload CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-by">
+                    <span class="featured-by-title">Featured by:</span>
+                    <div class="featured-by-logos">
+                        <img src="" alt="logo-1" class="featured-by-logo">
+                        <img src="" alt="logo-2" class="featured-by-logo">
+                        <img src="" alt="logo-3" class="featured-by-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="working-history">
+            <div class="working-history-title">
+                <h1 class="title">
+                    My Working History
+                </h1>
+                <span class="subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                    dapibus leo vel augue suscipit bibendum.
+                </span>
+            </div>
+            <div class="working-history-contents">
+                <div id="cards"></div>
+
+                <template id="card-tpl">
+                    <div class="working-history-card">
+                        <img alt="">
+                        <div class="working-history-card-content">
+                            <span class="working-history-card-date"></span>
+                            <h1 class="working-history-card-title"></h1>
+                            <p class="working-history-card-content"></p>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <div class="move-button">
+                <a href="" class="btn btn-primary">Previous</a>
+                <a href="" class="btn btn-primary">Next</a>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-content">
+                <div class="about-introduction">
+                    <h1 class="about-title">
+                        About Me
+                    </h1>
+                    <p class="about-subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        dapibus leo vel augue suscipit bibendum. Sed a nisi nec nunc
+                        efficitur tincidunt. In hac habitasse platea dictumst. Proin
+                        luctus dui odio, sed egestas erat condimentum non.
+                    </p>
+                    <span class="actor">
+                        Ralph Ewards, Neurologists Doctor
+                    </span>
+                </div>
+                <div class="about-image">
+                    <img src="" alt="about-image" class="about-image-content">
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification-and-awards">
+            <div class="qualification-and-awards-title">
+                <h1 class="title">
+                    Qualifications and Awards
+                </h1>
+                <span class="subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                    dapibus leo vel augue suscipit bibendum.
+                </span>
+            </div>
+            <div class="qualifications">
+                <div class="qualification-rows">
+                    <div class="location-and-time">
+                        <h6 class="location">Location</h6>
+                        <span class="time">Time</span>
+                    </div>
+                    <div class="contents">
+                        <h5 class="award-name">
+                            Award Name
+                        </h5>
+                        <p class="award-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            dapibus leo vel augue suscipit bibendum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="awards">
+                <div class="award-cards">
+                    <img src="" alt="award-image" class="award-image">
+                    <div class="award-card-content">
+                        <h1 class="award-title">
+                            Award Title
+                        </h1>
+                        <p class="award-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            dapibus leo vel augue suscipit bibendum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="highly-sensitive-person">
+            <img src="" alt="highly-sensitive-person-image" class="highly-sensitive-person-image">
+            <div class="highly-sensitive-person-content">
+                <h1 class="highly-sensitive-person-title">
+                    Highly Sensitive Person
+                </h1>
+                <p class="highly-sensitive-person-subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                    dapibus leo vel augue suscipit bibendum.
+                </p>
+                <div class="author-info">
+                    <img src="" alt="author-image" class="author-image">
+                    <div class="author-name-and-job">
+                        <span class="author-name">Ralph Ewards</span>
+                        <span class="author-job">Neurologists Doctor</span>
+                    </div>
+                </div>  
+                <div class="oponion-list">
+                    <h6 class="oponion">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </h6>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        dapibus leo vel augue suscipit bibendum. Sed a nisi nec nunc
+                        efficitur tincidunt. In hac habitasse platea dictumst. Proin
+                        luctus dui odio, sed egestas erat condimentum non.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="success-stories">
+            <div class="success-stories-title">
+                <h1 class="title">
+                    Success Stories
+                </h1>
+                <span class="subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                    dapibus leo vel augue suscipit bibendum.
+                </span>
+            </div>
+            <div class="success-stories-contents">
+                <div class="success-story-cards">
+                    <p class="success-story-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                        dapibus leo vel augue suscipit bibendum.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="event-and-show">
+            <h2 class="event-and-show-title">
+                Events and Shows
+            </h2>
+            <hr>
+            <p class="event-and-show-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                dapibus leo vel augue suscipit bibendum.
+            </p>
+            <div class="event-and-show-content">
+                <div class="event-and-show-cards">
+                    <div class="time-and-comment">
+                        <span class="time">10:00 AM</span>
+                        <span class="comment">Comment</span>
+                    </div>
+                    <div class="event-and-show-card-content">
+                        <h1 class="event-and-show-title">
+                            Event and Show Title
+                        </h1>
+                        <p class="event-and-show-content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                            dapibus leo vel augue suscipit bibendum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="footer-container">
+        <section class="footer-cta">
+            <h2>
+                Looking for a Neurologists<br>
+                Doctor? Get in touch and<br>
+                let's chat!
+            </h2>
+            <div class="footer-cta-content">
+                <p>
+                    Donec in bibendum risus. Cras eget imperdiet
+                    sapien. Donec sollicitudin maximus augue,
+                    non elementum quam ultricies non.
+                </p>
+                <a href="#contact" class="footer-btn">
+                    <span>Get In Touch</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <hr class="footer-divider">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">
+                    Ralph<br>
+                    Edwards.
+                </a>
+            </div>
+
+            <div class="footer-location">
+                <h3 class="footer-heading">Location</h3>
+                <p>
+                    4517 Washington Ave.<br>
+                    Manchester, Kentucky 39495
+                </p>
+            </div>
+
+            <nav class="footer-navigation" aria-label="Quick links">
+                <h3 class="footer-heading">Quick Links</h3>
+
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#cv" class="active">CV</a>
+                    <a href="#events">Events</a>
+                    <a href="#article">Article</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+
+            <div class="footer-social">
+                <h3 class="footer-heading">Follow Me</h3>
+
+                <div class="footer-social-list">
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="active" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" aria-label="Medium">
+                        <i class="fa-brands fa-medium"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+            All content © 2006-Current Winston Potter and respective copyright holders.
+        </div>
+    </div>
+</footer>
 </body>
 </html>
