@@ -1,0 +1,67 @@
+body > header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    height: 66px;
+    color: rgb(57, 57, 57);
+    width: min(100%, 1100px);
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1;
+    height: 100%;
+    letter-spacing: 1px;
+    padding: 15px 45px 15px 15px;
+}
+
+.nav-links {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--desc);
+    align-items: center;
+}
+
+.nav-links a {
+    padding: 5px 15px;
+}
+
+.nav-link.active {
+    color: var(--desc);
+    background-color: var(--accent);
+}
+
+.nav-link:hover {
+    background-color: var(--accent);
+}
+
+.nav-contact-wrapper{
+    margin-left: 10px;
+    padding-left: 25px;
+    border-left: 1px solid #e2e5e9;
+}
+
+.nav-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    min-width: 90px;
+    min-height: 40px;
+    color: rgb(21, 21, 21);
+    background: #ffd719;
+}
+
+.hero{
+    background-color: rgb(253, 247, 207);
+}
