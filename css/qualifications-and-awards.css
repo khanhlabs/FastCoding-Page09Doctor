@@ -164,9 +164,18 @@
 .award-card-3 {
     grid-column: 1;
     grid-row: 2;
-    margin-top: 0;
+    margin-top: -115px;
 }
 
-.award-card-3 .award-number {
-    color: #ffd21c;
+.award-card:hover {
+    border: none;
+    cursor: pointer;
+    box-shadow:
+        0 0 8px rgba(0, 0, 0, 0.04),
+        0 10px 25px rgba(0, 0, 0, 0.12);
+    transition: all 0.2s ease-in-out;
+}
+
+.award-card:hover .award-number {
+    color: #FFD91A;
 }
