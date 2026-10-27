@@ -11,8 +11,7 @@
     <link rel='stylesheet' href='./css/header.css'>
     <link rel='stylesheet' href='./css/hero.css'>
     <link rel='stylesheet' href='./css/float-banner.css'>
-
-    <script src='./js/cards.js' defer></script>
+    <link rel='stylesheet' href='./css/working-history.css'>
 </head>
 <body>
     <header>
@@ -82,11 +81,12 @@
 
                     <div class="contact">
                         <a href="/contact" class="btn-primary">
-                            Send Message <span aria-hidden="true">→</span>
+                            Send Message
+                            <img src="./images/icons/right-arrow.svg"/>
                         </a>
 
                         <a href="/cv" class="btn-outline">
-                            <span aria-hidden="true">↓</span>
+                            <img src="./images/icons/download-icon.svg"/>
                             Download CV
                         </a>
                     </div>
@@ -109,29 +109,72 @@
                 <h1 class="title">
                     My Working History
                 </h1>
+                
                 <span class="subtitle">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas <br>
                     dapibus leo vel augue suscipit bibendum.
                 </span>
             </div>
             <div class="working-history-contents">
-                <div id="cards"></div>
-
-                <template id="card-tpl">
+                <div class="working-history-cards">
                     <div class="working-history-card">
-                        <img alt="">
+                        <img src="./images/working-history-1.png" alt="Working History Image">
                         <div class="working-history-card-content">
-                            <span class="working-history-card-date"></span>
-                            <h1 class="working-history-card-title"></h1>
-                            <p class="working-history-card-content"></p>
+                            <span class="working-history-card-date currently">
+                                CURRENTLY WORKING
+                            </span>
+                            <h1 class="working-history-card-title">
+                                Singapore General Hospital
+                            </h1>
+                            <p class="working-history-card-content">
+                                Donec ut imperdiet augue, ac rhoncus arcu.
+                                In ac mauris commodo, ultrices felis
+                                vitae, tempor eros.
+                            </p>
                         </div>
-                    </div>
-                </template>
+                    </div>  
+                    <div class="working-history-card">
+                        <img src="./images/working-history-2.png" alt="Working History Image">
+                        <div class="working-history-card-content">
+                            <span class="working-history-card-date">
+                                Jan, 2019 to March, 2021
+                            </span>
+                            <h1 class="working-history-card-title">
+                                University of Tokyo Hospital
+                            </h1>
+                            <p class="working-history-card-content">
+                                Donec ut imperdiet augue, ac rhoncus arcu.
+                                In ac mauris commodo, ultrices felis
+                                vitae, tempor eros.
+                            </p>
+                        </div>
+                    </div> 
+                    <div class="working-history-card">
+                        <img src="./images/working-history-3.png" alt="Working History Image">
+                        <div class="working-history-card-content">
+                            <span class="working-history-card-date">
+                                March, 2017 to Dec, 2018
+                            </span>
+                            <h1 class="working-history-card-title">
+                                Johns Hopkins Hospital
+                            </h1>
+                            <p class="working-history-card-content">
+                                Donec ut imperdiet augue, ac rhoncus arcu.
+                                In ac mauris commodo, ultrices felis
+                                vitae, tempor eros.
+                            </p>
+                        </div>
+                    </div> 
+                </div>  
             </div>
 
             <div class="move-button">
-                <a href="" class="btn btn-primary">Previous</a>
-                <a href="" class="btn btn-primary">Next</a>
+                <a href="" class="btn btn-primary">
+                    <img src="./images/icons/left-arrow.svg" alt="left-arrow" class="arrow-icon">
+                </a>
+                <a href="" class="btn btn-primary">
+                    <img src="./images/icons/right-arrow.svg" alt="right-arrow" class="arrow-icon">
+                </a>
             </div>
         </section>
         <section class="about">
