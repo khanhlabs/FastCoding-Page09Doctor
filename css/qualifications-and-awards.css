@@ -1,0 +1,30 @@
+.qualification-and-awards{
+    padding: 65px 230px;
+}
+
+.qualification-and-awards-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #132238;
+}
+
+.qualification-and-awards-title .title{
+    font-size: 37px;
+}
+
+.qualification-and-awards-title .title:after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #E6E8EB;
+    margin: 10px auto 20px;
+}
+
+.qualification-and-awards-title .subtitle{
+    text-align: center;
+    font-size: 13px;
+    color: #556070;
+    margin-bottom: 50px;
+}
