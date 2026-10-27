@@ -3,7 +3,7 @@
     z-index: 5;
 
     width: min(calc(100% - 40px), 1150px);
-    margin: -130px auto 0;
+    margin: -115px auto 0;
 
     display: grid;
     grid-template-columns: minmax(0, 1fr) 340px;
@@ -23,16 +23,16 @@
 }
 
 .float-banner .introduction img {
-    height: 230px;
+    height: 210px;
 }
 
 .introduction-title {
-    font-size: 25px;
+    font-size: 27px;
     margin-bottom: 7px;
 }
 
 .introduction-description {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--desc);
     letter-spacing: 0;
     margin-bottom: 20px;

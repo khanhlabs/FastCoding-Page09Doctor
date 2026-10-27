@@ -9,9 +9,9 @@ body > header {
 
 .nav-bar {
     display: flex;
-    height: 66px;
+    height: 72px;
     color: rgb(57, 57, 57);
-    width: min(100%, 1100px);
+    width: min(100%, 1050px);
     margin-inline: auto;
     justify-content: space-between;
 }
@@ -19,11 +19,12 @@ body > header {
 .logo{
     background-color: #000000;
     color: #fff;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1;
     height: 100%;
-    letter-spacing: 1px;
-    padding: 15px 45px 15px 15px;
+    letter-spacing: 0;
+    padding: 12px;
+    width: 165px;
 }
 
 .nav-links {
@@ -35,11 +36,11 @@ body > header {
 }
 
 .nav-links a {
-    padding: 6px 15px;
+    padding: 5px 12px;
 }
 
 .nav-link.active {
-    color: var(--desc);
+    color: #132238;
     background-color: var(--accent);
 }
 
@@ -48,9 +49,9 @@ body > header {
 }
 
 .nav-contact-wrapper{
-    margin-left: 10px;
-    padding-left: 25px;
-    border-left: 1px solid #e2e5e9;
+    margin-left: 12px;
+    padding-left: 24px;
+    border-left: 1px solid #E6E8EB;
 }
 
 .nav-contact{
@@ -58,11 +59,11 @@ body > header {
     align-items: center;
     justify-content: center;  
     min-width: 90px;
-    min-height: 40px;
+    min-height: 37px;
     color: rgb(21, 21, 21);
     background: #ffd719;
 }
 
 .nav-contact:hover{
-    background: #e7c000;
+    background: #FFD91A;
 }

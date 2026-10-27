@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
 
 :root {
-    --accent: rgb(254, 236, 177);
+    --accent: #FFF0A3;
     --accent-hover: rgb(182, 178, 58);
-    --desc: #494949;
+    --desc: #424E60;
     --ink: #0b2024;
     --muted: #71818d;
     --surface: #f2f5f6;

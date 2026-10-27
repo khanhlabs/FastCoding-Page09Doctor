@@ -16,20 +16,20 @@
 }
 
 .job-icon{
-    width: 21px;
-    height: 21px;
+    width: 17px;
+    height: 17px;
 }
 
 .hero-title .name{
-    color: #000d1f;
-    font-size: 21px;
+    color: #132238;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0;
 }
 
 .hero-title .title{
-    color: #000d1f;
-    font-size: 50px;
+    color: #132238;
+    font-size: 47px;
     font-weight: 700;
     letter-spacing: 0;
     margin: 10px 0 30px 0;
@@ -37,32 +37,38 @@
 }
 
 .hero-title .subtitle{
-    color: #000d1f;
-    font-size: 17px;
+    color: #132238;
+    font-size: 15px;
     letter-spacing: 0;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .hero-image{
-    width: 45%;
+    width: 42%;
     height: auto;
+}
+
+.hero-introduction .more-about{
+    display: flex;
+    gap: 24px;
 }
 
 .hero-introduction .more-about a{
     border: 3px solid #ffd500;
-    padding: 15px 20px;
+    font-size: 13px;
+    padding: 12px 20px;
     font-weight: 500;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.05);
     transition: all 0.2s ease-in-out;
 }
 
 .btn-primary{
-    background-color: #ffd500;
-    color: #000d1f;
+    background-color: #FFD91A;
+    color: #132238;
 }
 
 .btn-primary:hover{
-    background-color: #f1c900;
+    background-color: #eac718;
 }
 
 .btn-outline{
@@ -70,5 +76,5 @@
 }
 
 .btn-outline:hover{
-    background-color: #ffd500;
+    background-color: #FFD91A;
 }
