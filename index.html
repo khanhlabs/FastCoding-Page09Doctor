@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='./css/style.css'>
     <link rel='stylesheet' href='./css/header.css'>
+    <link rel='stylesheet' href='./css/hero.css'>
+    <link rel='stylesheet' href='./css/float-banner.css'>
 
     <script src='./js/cards.js' defer></script>
 </head>
@@ -50,8 +52,8 @@
                         </p>
                     </div>
                     <div class="more-about">
-                        <a href="/about" class="learn-about-me">Learn About Me</a>
-                        <a href="/story" class="patient-success-story">Patient Success Story</a>
+                        <a href="/about" class="btn-primary">Learn About Me</a>
+                        <a href="/story" class="btn-outline">Patient Success Story</a>
                     </div>
                 </div>
                 <img src="./images/hero-doctor-image.png" alt="Hero Image" class="hero-image"/>
@@ -59,32 +61,45 @@
         </section>
         <section class="float-banner">
             <div class="introduction">
-                <img src="" alt="introduction-image" class="introduction-image">
+                <img src="./images/float-banner-doctor-image.png"
+                    alt="Ralph Edwards, neurologist"
+                    class="introduction-image"
+                >
                 <div class="introduction-and-contact">
                     <div class="introduction-text">
-                        <h1 class="introduction-title">
-                            Hello, I am Ralph Ewards.
-                        </h1>
-                        <p class="introduction-title">
-                                Phasellus blandit, metus sit amet euismod facilisis,
-                                ante justo mollis elit, eu suscipit tellus lorem non
-                                dolor. Aliquam faucibus odio tempus nibh fringilla
-                                tincidunt. Proin luctus dui odio, sed egestas erat
-                                condimentum non.
+                        <h2 class="introduction-title">
+                            Hello, I'm Ralph Edwards.
+                        </h2>
+
+                        <p class="introduction-description">
+                            Phasellus blandit, metus sit amet euismod facilisis, <br>
+                            ante justo mollis elit, eu suscipit tellus lorem non <br>
+                            dolor. Aliquam faucibus odio tempus nibh fringilla <br>
+                            tincidunt. Proin luctus dui odio, sed egestas erat <br>
+                            condimentum non.
                         </p>
                     </div>
+
                     <div class="contact">
-                        <a href="/contact" class="btn btn-primary">Send Message</a>
-                        <a href="/cv" class="btn btn-primary">Dowload CV</a>
+                        <a href="/contact" class="btn-primary">
+                            Send Message <span aria-hidden="true">→</span>
+                        </a>
+
+                        <a href="/cv" class="btn-outline">
+                            <span aria-hidden="true">↓</span>
+                            Download CV
+                        </a>
                     </div>
                 </div>
             </div>
+
             <div class="featured-by">
-                <span class="featured-by-title">Featured by:</span>
+                <span class="featured-by-title">FEATURED BY:</span>
+
                 <div class="featured-by-logos">
-                    <img src="" alt="logo-1" class="featured-by-logo">
-                    <img src="" alt="logo-2" class="featured-by-logo">
-                    <img src="" alt="logo-3" class="featured-by-logo">
+                    <img src="./images/boston-children-hospital-logo.jpg" alt="Hospital 1" class="featured-by-logo">
+                    <img src="./images/cincinnati-children-hostpital.png" alt="Hospital 2" class="featured-by-logo">
+                    <img src="./images/florida-hospital.png" alt="Hospital 3" class="featured-by-logo">
                 </div>
             </div>
         </section>
