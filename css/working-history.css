@@ -92,14 +92,14 @@
     gap: 16px;
 }
 
-.move-button a{
+.move-button button{
     padding:13px;
     background-color: #ffffff; 
     border: 2px solid #FFD91A;
     border-radius: 100%;
 }
 
-.move-button a img{
+.move-button button img{
     height: 17px;
     display: grid;
     justify-content: center;   
