@@ -1,0 +1,84 @@
+.event-and-show{
+    background-color: #F0F1F3;
+    padding: 70px 220px;
+}
+
+.event-and-show-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.title-and-subtitle{
+    width: 48%;    
+}
+
+.title-and-subtitle .title{
+    font-size: 38px;
+}
+
+.title-and-subtitle .subtitle{
+    font-size: 13px;
+    color: #556070;
+}
+
+.title-and-subtitle .title:after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: #d7dae0;
+    margin: 10px 0 20px;
+}
+
+.move-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.event-and-show-button button img{
+    height: 20px;
+}
+
+.event-and-show-content{
+    gap: 20px;
+    display: flex;
+}
+
+.event-and-show-cards{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.time-and-comment{
+    display: flex;
+    color: #424E60;
+    gap: 15px;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.time-and-comment span img{
+    height: 22px;
+    justify-content: center;
+    margin: 0 -3px -5px 0;
+}
+
+.event-and-show-title{
+    font-size: 15px;
+    color: #424E60;
+}
+
+.event-and-show-content{
+    font-size: 11px;
+    color: #556070;
+}
+
+.event-and-show-card-content .title{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #424E60;
+}
