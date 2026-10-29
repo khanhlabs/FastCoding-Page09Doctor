@@ -39,5 +39,5 @@
 .about-image img{
     width: 95%;
     height: auto;
-    display: flex;
+    display: block;
 }

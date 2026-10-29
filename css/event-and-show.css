@@ -2,6 +2,18 @@
     background-color: #F0F1F3;
 }
 
+.event-and-show-content {
+    display: flex;
+    gap: 20px;
+}
+
+.event-and-show-card-content .event-and-show-content {
+    display: block;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #556070;
+}
+
 .event-and-show .wrapper{
     display: grid;
     padding-block: clamp(10px, 6vw, 50px);

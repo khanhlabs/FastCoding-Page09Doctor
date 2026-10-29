@@ -3,6 +3,11 @@
     padding-block: clamp(10px, 6vw, 100px);
 }
 
+.qualification-container {
+    width: 100%;
+    min-width: 0;
+}
+
 .qualification-header{
     display: flex;
     flex-direction: column;

@@ -53,12 +53,6 @@
     z-index: 2;
 }
 
-.book-image-front img{
-    width: 24%;
-    position: absolute;
-    margin-left: -5%;
-}
-
 .book-divider {
     height: 1px;
     width: 100%;
