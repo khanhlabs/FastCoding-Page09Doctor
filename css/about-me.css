@@ -1,6 +1,9 @@
 .about{
     background-color: #132238;
-    padding: 70px 240px;
+}
+
+.about .wrapper{
+    padding-block: clamp(10px, 6vw, 80px);
 }
 
 .about-content{

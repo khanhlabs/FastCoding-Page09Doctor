@@ -7,11 +7,17 @@ body > header {
     width: 100%;
 }
 
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
 .nav-bar {
     display: flex;
-    height: 72px;
+    height: 70px;
     color: rgb(57, 57, 57);
-    width: min(100%, 1050px);
+    width: 100%;
+    max-width: 1010px;
     margin-inline: auto;
     justify-content: space-between;
 }
@@ -19,24 +25,25 @@ body > header {
 .logo{
     background-color: #000000;
     color: #fff;
-    font-size: 21px;
-    line-height: 1;
+    font-size: 18px;
+    line-height: 1.1;
+    font-weight: 500;
     height: 100%;
-    letter-spacing: 0;
-    padding: 15px;
-    width: 165px;
+    letter-spacing: 0.5px;
+    padding: 15px 50px 15px 15px;
 }
 
-.nav-links {
+.nav-list {
     display: flex;
-    font-size: 13px;
+    list-style: none;
+    font-size: 12px;
     font-weight: 500;
     color: var(--desc);
     align-items: center;
 }
 
 .nav-links a {
-    padding: 5px 12px;
+    padding: 7px 12px;
 }
 
 .nav-link.active {
@@ -48,20 +55,18 @@ body > header {
     background-color: var(--accent);
 }
 
-.nav-contact-wrapper{
+.nav-item.wrapper{
     margin-left: 12px;
-    padding-left: 24px;
+    padding: 0 18px;
     border-left: 1px solid #E6E8EB;
 }
 
-.nav-contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-    min-width: 90px;
-    min-height: 37px;
-    color: rgb(21, 21, 21);
+.nav-item.wrapper a {
+    font-size: 11px;
     background: #ffd719;
+    font-weight: 700;
+    color: black;
+    padding: 9px 19px;
 }
 
 .nav-contact:hover{
