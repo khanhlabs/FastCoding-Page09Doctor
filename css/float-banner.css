@@ -9,6 +9,7 @@
 }
 
 .float-banner .wrapper {
+    display: flex;
     justify-content: space-between;
     padding-block: clamp(10px, 6vw, 40px);
     align-items: flex-start;

@@ -5,6 +5,10 @@
     background-color: rgb(253, 247, 207);
 }
   
+.section-keyvisual .wrapper{
+    display: flex;
+    padding-block: clamp(10px, 6vw, 35px);	
+}
 
 .hero-introduction{
     margin-top: 10%;

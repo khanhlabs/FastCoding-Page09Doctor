@@ -4,6 +4,7 @@
 
 .event-and-show .wrapper{
     display: grid;
+    padding-block: clamp(10px, 6vw, 50px);
 }
 
 .event-and-show-title{

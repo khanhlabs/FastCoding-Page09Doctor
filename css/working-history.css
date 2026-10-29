@@ -1,5 +1,6 @@
 .working-history .wrapper{
     display: grid;
+    padding-block: clamp(10px, 6vw, 50px);
 }
 
 .working-history-cards {

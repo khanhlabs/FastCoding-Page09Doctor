@@ -28,11 +28,8 @@ body {
 }
 
 .wrapper {
-    display: flex;
-    width: min(100%, 1010px);
-    max-width: 1010px;
-    padding-block: clamp(10px, 6vw, 35px);
-    margin: 0 auto;
+    width: min(100% - 48px, 1010px);
+    margin-inline: auto;
 }
 
 a {

@@ -1,33 +1,27 @@
 .success-stories .wrapper {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 100%;
+    padding-block: clamp(10px, 6vw, 100px);
 }
 
 .success-stories-content-container {
-    width: 55%;
+    width: 68%;
+}
+
+.success-stories-content-container h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.success-stories-content-container span{
+    text-align: left;
+    margin:0;
 }
 
 .success-stories-title,
 .success-stories-contents {
     min-width: 0;
     width: 100%;
-}
-
-.success-stories-title .title:after{
-    content: "";
-    display: block;
-    width: 170px;
-    height: 1px;
-    background-color: #E6E8EB;
-    margin: 15px 0 15px;
-}
-
-.success-stories-title .subtitle{
-    font-size: 13px;
-    line-height: 1;
-    color: #556070;
-    letter-spacing: 0;
 }
 
 .success-story-cards {
