@@ -1,52 +1,62 @@
-/* 
+
+.book-section {
+    position: relative;
+    isolation: isolate;
+    background-color: #132238;
+    color: #fff;
+}
+
+.book-section::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 30%;
+    background-color: #f0f1f3;
+    z-index: -1;
+}
+
+.book-section .wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+
+    width: min(calc(100% - 48px), 1010px);
+    max-width: 1280px;
+    margin-inline: auto;
+
+    padding-block: clamp(10px, 6vw, 40px);
+    align-items: stretch;
+    gap: 0;
+    min-width: 0;
+}
+
+.book-visual {
+    position: relative;
+    min-width: 0;
+    min-height: 480px;
+}
+
 .book-image-back {
-    width: 65%;
-    height: 75%;
-    left: 34%;
-    top: 12%;
-    transform: translateX(-50%) rotate(7deg);
+    position: absolute;
+    width: 47%;
+    height: auto;
+    left: -8%;
+    top: 7%;
     z-index: 1;
 }
 
 .book-image-front {
-    width: 77%;
-    height: 82%;
-    left: 62%;
-    top: 15%;
-    transform: translateX(-50%) rotate(-12deg);
-    z-index: 2;
-}
-
- */
-
-.book-section{
-    display: grid;
-    grid-template-columns: 28% 22% 50%;
-    color: #fff;
-    background-color: #132238;
-}
-
-.book-image-back{
-    background-color: #F0F1F3;
-    padding: 65px 0 65px 200px;
-    position: relative;
-}
-
-.book-image-back img{
-    width: 65%;
     position: absolute;
+    width: 65%;
     height: auto;
-    margin-left: -15%;
+    left: 28%;
+    top: 7%;
+    z-index: 2;
 }
 
 .book-image-front img{
     width: 24%;
     position: absolute;
     margin-left: -5%;
-}
-
-.book-image-front{
-    padding: 65px 0;
 }
 
 .book-divider {
@@ -58,18 +68,41 @@
 
 .book-content {
     position: relative;
-    border-left: none;
-    padding: 65px 200px 65px 80px;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    padding-left: clamp(32px, 5vw, 80px);
 }
 
 .book-content::before {
     content: "";
     position: absolute;
     left: 0;
-    top: 90px;
-    bottom: 90px;
+    top: 8%;
+    bottom: 8%;
     width: 1px;
-    background-color: #424E60;
+    background-color: #424e60;
+}
+
+.book-content-inner {
+    width: 100%;
+    max-width: 520px;
+    min-width: 0;
+}
+
+.book-title,
+.book-description,
+.book-feature h3,
+.book-feature p {
+    overflow-wrap: break-word;
+}
+
+.book-description br {
+    display: none;
+}
+
+.book-description {
+    line-height: 1.6;
 }
 
 .book-title{

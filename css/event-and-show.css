@@ -1,6 +1,9 @@
 .event-and-show{
     background-color: #F0F1F3;
-    padding: 70px 220px;
+}
+
+.event-and-show .wrapper{
+    display: grid;
 }
 
 .event-and-show-title{
