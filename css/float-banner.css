@@ -22,6 +22,7 @@
 
 .float-banner .introduction img {
     height: 210px;
+    width: auto;
 }
 
 .introduction-title {
@@ -61,4 +62,5 @@
 
 .featured-by-logos img{
     height: 33px;
+    width: auto;
 }
