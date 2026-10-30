@@ -1,6 +1,7 @@
 
 .section-keyvisual {
     width: 100%;
+    padding-bottom: 35px;
     background-color: rgb(253, 247, 207);
 }
 
@@ -9,8 +10,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 32px;
-
-    padding-block: clamp(40px, 6vw, 70px);
+    padding-bottom: 110px;
 }
 
 .hero-introduction {
@@ -22,10 +22,10 @@
 .hero-title .name {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 13px;
 
     color: #132238;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: 0;
 }
@@ -38,7 +38,8 @@
 
 .hero-title .title-primary {
     font-size: clamp(32px, 3.2vw, 46px);
-    line-height: 1.15;
+    line-height: 1;
+    letter-spacing: 1px;
     overflow-wrap: break-word;
 }
 
@@ -52,15 +53,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
     margin-top: 28px;
 }
 
 .hero-image {
     display: block;
     flex: 0 1 42%;
-    width: 42%;
-    max-width: 500px;
+    width: 50%;
+    max-width: 510px;
     height: auto;
     object-fit: contain;
+    margin-right: -9%;
 }

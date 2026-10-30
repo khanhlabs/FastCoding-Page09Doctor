@@ -1,8 +1,17 @@
 .qualification .wrapper{
     display: flex;
-    padding-block: clamp(10px, 6vw, 100px);
+    padding-block: clamp(10px, 6vw, 70px);
 }
 
+.qualification-header .title-tertiary{
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+}
+
+.qualification-header .desc-tertiary{
+    letter-spacing: -0.3px;
+    margin-bottom: 53px;
+}
 .qualification-container {
     width: 100%;
     min-width: 0;
@@ -18,7 +27,7 @@
 .qualification-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 52px;
+    gap: 24px;
     align-items: start;
 }
 
@@ -32,12 +41,10 @@
 
 .qualification-item {
     display: grid;
-    grid-template-columns: 145px minmax(0, 1fr);
-    gap: 17px;
-
-    padding: 0 0 27px;
-    margin-bottom: 28px;
-
+    grid-template-columns: 155px minmax(0, 1fr);
+    gap: 24px;
+    padding: 0 0 32px;
+    margin-bottom: 31px;
     border-bottom: 1px solid #e9edf2;
 }
 
@@ -49,7 +56,7 @@
 .qualification-meta {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 2px;
 }
 
 .qualification-meta a {
@@ -62,6 +69,7 @@
     color: #778398;
     font-size: 10px;
     line-height: 1.5;
+    letter-spacing: -0.3px;
 }
 
 .qualification-info h3 {
@@ -69,6 +77,8 @@
     font-weight: 600;
     line-height: 1.45;
     margin: 0 0 8px;
+    letter-spacing: 0.7px;
+    margin-bottom: 12px;
 }
 
 .qualification-info p {
@@ -76,6 +86,11 @@
     font-size: 10px;
     line-height: 1.5;
     margin: 0;
+    letter-spacing: 0.8px;
+}
+
+.award-info {
+    margin-top: 10px;
 }
 
 .awards-list {
@@ -87,7 +102,7 @@
     column-gap: 17px;
     row-gap: 46px;
     align-items: start;
-    padding-top: 32px;
+    padding-top: 39px;
 }
 
 .award-card {
@@ -104,20 +119,18 @@
 
 .award-card img {
     position: absolute;
-    top: -30px;
-    left: 16px;
-
-    width: 58px;
-    height: 100px;
+    top: -34px;
+    left: 17px;
+    width: 128px;
+    height: auto;
     object-fit: contain;
     object-position: bottom;
 }
 
 .award-number {
     position: absolute;
-    top: 12px;
-    right: 15px;
-
+    top: 18px;
+    right: 12px;
     color: #f0f1f3;
     font-size: 38px;
     font-weight: 700;
@@ -128,13 +141,15 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 1.4;
+    letter-spacing: 0.8px;
     margin: 0 0 7px;
 }
 
 .award-info p {
     color: #778398;
     font-size: 10px;
-    line-height: 1.5;
+    letter-spacing: 0.7px;
+    line-height: 1.6;
     margin: 0;
 }
 
@@ -146,12 +161,12 @@
 .award-card-2 {
     grid-column: 2;
     grid-row: 1;
-    margin-top: 115px;
+    margin-top: 127px;
 }
 .award-card-3 {
     grid-column: 1;
     grid-row: 2;
-    margin-top: -115px;
+    margin-top: -122px;
 }
 
 .award-card:hover {

@@ -28,7 +28,7 @@ body {
 }
 
 .wrapper {
-    width: min(100% - 48px, 1010px);
+    width: min(100% - 48px, 1040px);
     margin-inline: auto;
 }
 
@@ -38,12 +38,15 @@ a {
 }
 
 .btn-primary{
+    display: inline-flex;
+    align-items: center;
     background: var(--btn-primary);
     transition: all 0.2s ease-in-out;
     font-weight: 500;
     font-size: 13px;
-    padding: 12px 20px;
+    padding: 12px 24px;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.05);
+    gap: 13px;
 }
 
 .btn-outline{
@@ -51,7 +54,8 @@ a {
     display: flex;
     border: 3px solid var(--btn-primary);
     background: white;
-    padding: 10px 20px;
+    letter-spacing: -0.8px;
+    padding: 10px 22px;
     font-weight: 500;
     box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.05);
     transition: all 0.2s ease-in-out;
@@ -68,7 +72,8 @@ a {
 
 .btn-slider{
     display: flex;
-    margin-top: 50px;
+    justify-content: center;
+    margin-top: 38px;
     gap: 16px;
 }
 
@@ -108,15 +113,17 @@ a {
 }
 
 .title-secondary{
-    font-size: 27px;
+    font-size: 26px;
     margin-bottom: 7px;
+    letter-spacing: -0.5px;
+    margin-top: -5px;
 }
 
 .desc-secondary{
     font-size: 13px;
     letter-spacing: 0;
-    margin-bottom: 20px;
-    line-height: 1.35;
+    margin-bottom: 24px;
+    line-height: 19px;
     color: var(--desc-secondary);
 }
 
@@ -134,7 +141,7 @@ a {
     width: 170px;
     height: 1px;
     background-color: #E6E8EB;
-    margin: 10px auto 20px;
+    margin: 6px auto 20px;
 }
 
 .desc-tertiary{
@@ -145,20 +152,21 @@ a {
     font-size: 13px;
     letter-spacing: 0;
     line-height: 1.3;
-    margin-bottom: 50px;
+    margin-bottom: 43px;
 }
 
 .title-quaternary{
     font-size: 15px;
+    letter-spacing: 0.5px;
     font-weight: 500;
     color: #132238;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .desc-quaternary{
     font-size: 12px;
     color: #697484;
     letter-spacing: 0;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 

@@ -1,8 +1,8 @@
 .float-banner {
     position: relative;
     z-index: 5;
-    width: min(calc(100% - 40px), 1120px);
-    margin: -115px auto 0;
+    width: min(calc(100% - 40px), 1140px);
+    margin: -144px auto 0;
     background: #ffffff;
     border: 1px solid #ececf0;
     box-shadow: 0 25px 35px rgba(0, 0, 0, 0.06);
@@ -11,7 +11,7 @@
 .float-banner .wrapper {
     display: flex;
     justify-content: space-between;
-    padding-block: clamp(10px, 6vw, 40px);
+    padding-block: clamp(10px, 6vw, 50px);
     align-items: flex-start;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .float-banner .introduction img {
-    height: 210px;
+    height: 218px;
     width: auto;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .introduction .contact a img {
-    height: 13px;
+    height: 17px;
 }
 
 .contact .btn-outline img{
@@ -46,7 +46,7 @@
 
 .featured-by{
     border: 1px solid #e4e4e4;
-    padding: 15px 20px;
+    padding: 10px 15px;
 }
 
 .featured-by span{
@@ -58,10 +58,10 @@
 .featured-by-logos{
     display: flex;
     gap: 20px;
-    margin: 15px 0 15px 0;
+    margin: 5px 0 5px 0;
 }
 
 .featured-by-logos img{
-    height: 33px;
+    height: 53px;
     width: auto;
 }

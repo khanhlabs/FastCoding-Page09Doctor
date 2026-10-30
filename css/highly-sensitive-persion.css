@@ -4,26 +4,27 @@
     isolation: isolate;
     background-color: #132238;
     color: #fff;
+    margin-top: -24px;
 }
 
 .book-section::before {
     content: "";
     position: absolute;
     inset: 0 auto 0 0;
-    width: 30%;
+    width: 29%;
     background-color: #f0f1f3;
     z-index: -1;
 }
 
 .book-section .wrapper {
     display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
 
     width: min(calc(100% - 48px), 1010px);
     max-width: 1280px;
     margin-inline: auto;
 
-    padding-block: clamp(10px, 6vw, 40px);
+    padding-block: clamp(10px, 6vw, 66px);
     align-items: stretch;
     gap: 0;
     min-width: 0;
@@ -35,29 +36,20 @@
     min-height: 480px;
 }
 
-.book-image-back {
+.double-book {
     position: absolute;
-    width: 47%;
+    width: 144%;
     height: auto;
-    left: -8%;
-    top: 7%;
+    left: -48%;
+    top: -2.8%;
     z-index: 1;
-}
-
-.book-image-front {
-    position: absolute;
-    width: 65%;
-    height: auto;
-    left: 28%;
-    top: 7%;
-    z-index: 2;
 }
 
 .book-divider {
     height: 1px;
     width: 100%;
     background-color: #2b394d;
-    margin: 30px 0;
+    margin: 27px 0 23px 0;
 }
 
 .book-content {
@@ -79,7 +71,9 @@
 }
 
 .book-content-inner {
+    padding: 8px 0 0 10px;
     width: 100%;
+    height: 100%;
     max-width: 520px;
     min-width: 0;
 }
@@ -107,7 +101,7 @@
 .book-description{
     font-size: 12px;
     color: #87909D;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
 }
 
 .book-author {
@@ -131,12 +125,12 @@
 
 .author-label {
     color: #6f7c91;
-    font-size: 10px;
-    letter-spacing: 0.8px;
+    font-size: 9px;
+    letter-spacing: -0.4px;
 }
 
 .author-name {
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
 }
 
@@ -150,7 +144,7 @@
     gap: 10px;
 
     margin: 0 0 8px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
 }
