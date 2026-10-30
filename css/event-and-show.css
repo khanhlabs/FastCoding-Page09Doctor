@@ -16,14 +16,14 @@
 
 .event-and-show .wrapper{
     display: grid;
-    padding-block: clamp(10px, 6vw, 50px);
+    padding-block: clamp(10px, 6vw, 70px);
 }
 
 .event-and-show-title{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 30px;
+    margin-bottom: 42px;
 }
 
 .title-and-subtitle{
@@ -35,6 +35,7 @@
 }
 
 .title-and-subtitle .subtitle{
+    line-height: 17px;
     font-size: 13px;
     color: #556070;
 }
